@@ -37,7 +37,7 @@ ENV ELASTALERT_HOME /opt/elastalert
 # Supervisor configuration file for Elastalert.
 ENV ELASTALERT_SUPERVISOR_CONF ${CONFIG_DIR}/elastalert_supervisord.conf
 # Alias, DNS or IP of Elasticsearch host to be queried by Elastalert. Set in default Elasticsearch configuration file.
-ENV ELASTICSEARCH_HOST elasticsearchhost
+ENV ELASTICSEARCH_HOST elasticsearch
 # Port on above Elasticsearch host. Set in default Elasticsearch configuration file.
 ENV ELASTICSEARCH_PORT 9200
 # Use TLS to connect to Elasticsearch (True or False)
