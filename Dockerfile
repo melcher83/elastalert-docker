@@ -13,11 +13,10 @@
 # limitations under the License.
 
 # Elastalert Docker image running on Alpine Linux.
-# Build image with: docker build -t ivankrizsan/elastalert:latest .
+# Build image with: docker build -t resin/rpi-raspbian:stretch .
 
-FROM alpine
+FROM resin/rpi-raspbian:stretch
 
-LABEL maintainer="Ivan Krizsan, https://github.com/krizsan"
 
 # Set this environment variable to True to set timezone on container start.
 ENV SET_CONTAINER_TIMEZONE False
